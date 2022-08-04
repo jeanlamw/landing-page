@@ -1,0 +1,213 @@
+body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /* border: 5px solid yellow; */
+  margin: 0px;
+}
+
+.section1 {
+  display: flex;
+  /* background: hsl(215, 28%, 17%); */
+  background-color: #63d471;
+  background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+  color: white;
+  flex-direction: column;
+  /* border: 5px solid blue; */
+  padding: 10px 250px 100px;
+  justify-content: center;
+}
+
+.section.image {
+  width:100%;
+  height: 100%;
+}
+
+.top.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+
+
+.header.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  /* border: 5px solid brown; */
+
+}
+
+.main.content {
+  display: flex;
+  /* border: 5px solid red; */
+  gap: 100px;
+  height: 350px;
+}
+
+.main.content > * {
+  flex: 1;
+  /* border: 5px solid purple; */
+  justify-content: space-between;
+}
+
+.paragraph.content {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  /* background-color: pink; */
+  flex: 1;
+
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.donation.button {
+  background-color:#3882f6;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  border: none;
+  align-self:flex-start;
+  padding: 2px 20px;
+}
+
+.header.links {
+  display: flex;
+  gap: 25px;
+  /* border: 5px solid orange; */
+}
+.awesome .header {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.awesome.text,
+.links.text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.section2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /* border: 5px solid blue; */
+  padding: 50px 200px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section2.header {
+  font-size: 36px;
+  margin-bottom: 75px;
+  text-align: center;
+  font-weight: 700;
+}
+#image-container{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 100px;
+  /* border: 5px solid rgb(161, 60, 179); */
+}
+
+.park.overview {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* border: 5px solid rgb(141, 179, 60); */
+  align-items: center;
+  font-size: 16px;
+
+}
+/* .park.description {
+  border: 5px solid red;
+} */
+
+.big.images {
+  width:100%;
+  height: 100%;
+  border: 5px solid #3882f6;
+  border-radius: 30px;
+
+}
+
+.section3 {
+  background-color: #e5e7eb;
+  padding: 100px 500px;
+  /* border: 5px solid green; */
+
+}
+
+.sayings {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /* border: 5px solid maroon; */
+
+}
+.section3 .author {
+  text-align: right;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.section3 .quote  {
+  font-size: 26px;
+  font-style: italic;
+  /* border: 5px solid purple; */
+}
+
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  /* border: 5px solid purple; */
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.action.content {
+  /* border: 5px solid yellow; */
+  background-color: #3882f6;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  color: white;
+  border-radius: 10px;
+}
+
+.action.content > * {
+  /* border: 5px solid blue; */
+  align-self: center;
+  margin-right: 100px;
+
+}
+.footer.end {
+  display: flex;
+  flex: 1;
+  background-color: #63d471;
+  background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+  padding-bottom: 25px;
+  padding-top: 25px;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+
+.some.button {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px 25px;
+  background-color: #3882f6;
+  color: white;
+  font-size: 16px;
+}
+
